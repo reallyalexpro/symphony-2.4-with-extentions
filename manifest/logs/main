@@ -1,0 +1,158 @@
+============================================
+Log Created: 2014-05-29T12:09:17+04:00
+============================================
+Symphony Log
+Opened:  2014-05-29T12:09:17+04:00
+Version: 2.4
+Domain:  dental
+--------------------------------------------
+29.05.2014 12:41 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 640 of file C:\OpenServer\domains\dental\extensions\anti_brute_force\lib\class.ABF.php
+29.05.2014 12:41 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 640 of file C:\OpenServer\domains\dental\extensions\anti_brute_force\lib\class.ABF.php
+29.05.2014 12:43 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 640 of file C:\OpenServer\domains\dental\extensions\anti_brute_force\lib\class.ABF.php
+29.05.2014 12:43 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 117 of file C:\OpenServer\domains\dental\extensions\datetime\extension.driver.php
+29.05.2014 12:45 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 640 of file C:\OpenServer\domains\dental\extensions\anti_brute_force\lib\class.ABF.php
+29.05.2014 12:47 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 117 of file C:\OpenServer\domains\dental\extensions\datetime\extension.driver.php
+29.05.2014 12:49 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 640 of file C:\OpenServer\domains\dental\extensions\anti_brute_force\lib\class.ABF.php
+29.05.2014 12:51 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 117 of file C:\OpenServer\domains\dental\extensions\datetime\extension.driver.php
+29.05.2014 12:57 > Fatal Error: GenericExceptionHandler 1: Call to a member function get() on a non-object on line 67 of file C:\OpenServer\domains\dental\extensions\recaptcha\extension.driver.php
+29.05.2014 12:58 > UNKNOWN: DatabaseException 0 - MySQL Error (1048): Column 'name' cannot be null in query: INSERT INTO `sym_ckeditor_presets` (`name`, `toolbar`, `plugins`) VALUES (NULL, NULL, NULL) on line 867 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.mysql.php
+29.05.2014 13:01 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 640 of file C:\OpenServer\domains\dental\extensions\anti_brute_force\lib\class.ABF.php
+29.05.2014 13:02 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 640 of file C:\OpenServer\domains\dental\extensions\anti_brute_force\lib\class.ABF.php
+29.05.2014 13:03 > UNKNOWN: DatabaseException 0 - MySQL Error (1048): Column 'name' cannot be null in query: INSERT INTO `sym_ckeditor_presets` (`name`, `toolbar`, `plugins`) VALUES (NULL, NULL, NULL) on line 867 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.mysql.php
+29.05.2014 13:16 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 428 of file C:\OpenServer\domains\dental\extensions\ckeditor\extension.driver.php
+29.05.2014 13:19 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 198 of file C:\OpenServer\domains\dental\extensions\configuration\content\content.settings.php
+29.05.2014 13:19 > Warning: GenericErrorHandler 2: mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user ''@'localhost' (using password: NO) on line 79 of file C:\OpenServer\domains\dental\extensions\export_ensemble\lib\class.mysqldump.php
+29.05.2014 13:19 > UNKNOWN: ErrorException 0 - mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user ''@'localhost' (using password: NO) on line 79 of C:\OpenServer\domains\dental\extensions\export_ensemble\lib\class.mysqldump.php
+29.05.2014 13:20 > Fatal Error: GenericExceptionHandler 1: Call to undefined method Administration::saveConfig() on line 40 of file C:\OpenServer\domains\dental\extensions\configuration\extension.driver.php
+29.05.2014 13:21 > Warning: GenericErrorHandler 2: mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user ''@'localhost' (using password: NO) on line 79 of file C:\OpenServer\domains\dental\extensions\export_ensemble\lib\class.mysqldump.php
+29.05.2014 13:21 > UNKNOWN: ErrorException 0 - mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user ''@'localhost' (using password: NO) on line 79 of C:\OpenServer\domains\dental\extensions\export_ensemble\lib\class.mysqldump.php
+29.05.2014 13:22 > Warning: GenericErrorHandler 2: mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user ''@'localhost' (using password: NO) on line 79 of file C:\OpenServer\domains\dental\extensions\export_ensemble\lib\class.mysqldump.php
+29.05.2014 13:22 > UNKNOWN: ErrorException 0 - mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user ''@'localhost' (using password: NO) on line 79 of C:\OpenServer\domains\dental\extensions\export_ensemble\lib\class.mysqldump.php
+29.05.2014 13:23 > Warning: GenericErrorHandler 2: mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user ''@'localhost' (using password: NO) on line 79 of file C:\OpenServer\domains\dental\extensions\export_ensemble\lib\class.mysqldump.php
+29.05.2014 13:23 > UNKNOWN: ErrorException 0 - mysql_real_escape_string() [<a href='function.mysql-real-escape-string'>function.mysql-real-escape-string</a>]: Access denied for user ''@'localhost' (using password: NO) on line 79 of C:\OpenServer\domains\dental\extensions\export_ensemble\lib\class.mysqldump.php
+29.05.2014 13:26 > Fatal Error: Javascript - Отказано в доступе.
+ in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 99
+29.05.2014 13:26 > Fatal Error: Javascript - Разрешение отклонено in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 453
+29.05.2014 13:26 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:26 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:26 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:26 > Fatal Error: Javascript - Отказано в доступе.
+ in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 99
+29.05.2014 13:26 > Fatal Error: Javascript - Отказано в доступе.
+ in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 99
+29.05.2014 13:26 > Fatal Error: Javascript - Отказано в доступе.
+ in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 99
+29.05.2014 13:26 > Fatal Error: Javascript - Отказано в доступе.
+ in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 99
+29.05.2014 13:26 > Fatal Error: Javascript - Отказано в доступе.
+ in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 99
+29.05.2014 13:26 > Fatal Error: Javascript - Отказано в доступе.
+ in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 99
+29.05.2014 13:26 > Fatal Error: Javascript - Отказано в доступе.
+ in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 99
+29.05.2014 13:26 > Fatal Error: Javascript - Разрешение отклонено in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 453
+29.05.2014 13:26 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:26 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:26 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:27 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:27 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:27 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:27 > Fatal Error: Javascript - Отказано в доступе.
+ in file http://dental/extensions/ckeditor/lib/ckeditor/ckeditor.js on line 99
+29.05.2014 13:27 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:27 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:27 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:27 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:33 > User Notice: FrontendPageNotFoundException 1024 - The page you requested does not exist. on line 326 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.frontendpage.php
+29.05.2014 13:51 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:51 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:51 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:51 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:54 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:54 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 13:54 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:02 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:02 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:02 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:02 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:02 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:02 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:03 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:03 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:03 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:06 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:06 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:06 > UNKNOWN: DatabaseException 0 - MySQL Error (1048): Column 'link' cannot be null in query: INSERT INTO `sym_ckeditor_link_templates` (`link`, `page_id`, `section_id`) VALUES (NULL, '1', '3') on line 867 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.mysql.php
+29.05.2014 14:07 > UNKNOWN: DatabaseException 0 - MySQL Error (1048): Column 'link' cannot be null in query: INSERT INTO `sym_ckeditor_link_templates` (`link`, `page_id`, `section_id`) VALUES (NULL, '1', '3') on line 867 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.mysql.php
+29.05.2014 14:09 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:09 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:09 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:11 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:11 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:11 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:26 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:26 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:30 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:30 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:30 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:32 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:32 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:32 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:34 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:34 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:34 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:34 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:34 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:34 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:34 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:34 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:35 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:42 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:42 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:42 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:42 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:42 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:42 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:42 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:42 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:42 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:43 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:43 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:43 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:43 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:45 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:45 > UNKNOWN: SymphonyErrorPage 0 - The page you requested does not exist. on line 661 of C:\OpenServer\domains\dental\symphony\lib\core\class.symphony.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 14:47 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 15:00 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 15:01 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 15:01 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 15:01 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 15:17 > Fatal Error: GenericExceptionHandler 1: Call to undefined method contentExtensionCkeditorFilebrowserajax::isXSRFEnabled() on line 30 of file C:\OpenServer\domains\dental\extensions\ckeditor\content\content.filebrowserajax.php
+29.05.2014 15:50 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
+29.05.2014 15:51 > UNKNOWN: SymphonyErrorPage 0 - Request was rejected for having an invalid cross-site request forgery token.<br/><br/>Please go back and try again. on line 201 of C:\OpenServer\domains\dental\symphony\lib\toolkit\class.xsrf.php
