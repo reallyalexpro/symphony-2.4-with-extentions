@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="breadcrumb" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Breadcrumb</name>
+	<description>A datasource that provides XML representing the parent hierarchy. Useful for building breadcrumb navigation.</description>
+	<repo type="github">https://github.com/symphonists/breadcrumb</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/32781/</url>
+	<types>
+		<type>Data Sources</type>
+	</types>
+	<authors>
+		<author>
+			<name github="symphonists" symphony="community">Symphony Community</name>
+		</author>
+	</authors>
+	<dependencies>
+		<!-- None -->
+	</dependencies>
+	<releases>  
+		<release version="1.2" date="2012-05-02" min="2.3.x">
+			- Compatible with Symphony 2.3
+			- Using new PageManager
+		</release>
+		<release version="1.1" date="2011-07-03" min="2.2">
+			- Compatible with the Multilingual Field and Language Redirect extensions
+		</release>
+		<release version="1.0" date="2009-01-02" max="2.2">
+			- First release
+		</release>
+	</releases>
+</extension>

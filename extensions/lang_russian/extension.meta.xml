@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="lang_russian" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Language: Russian</name>
+	<description>Russian translation for Symphony</description>
+	<repo type="github">https://github.com/alexbirukov/lang_russian</repo>
+	<url type="discuss">http://getsymphony.com/discuss/thread/88994/</url>
+	<types>
+		<type>Translations</type>
+	</types>
+	<authors>
+		<author>
+			<name github="alexbirukov" symphony="alexbirukov">Александр Бирюков</name>
+			<website>http://alexbirukov.ru/</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.4" date="2013-10-20" min="2.3.4" >
+			- Update russian language file for Symphony 2.3.4.
+		</release>
+		<release version="0.3" date="2013-10-02" min="2.3.3" >
+			- Update russian language file for Symphony 2.3.3.
+		</release>
+		<release version="0.2" date="2012-12-10" min="2.3.1" >
+			- Обновление перевода для версии 2.3.1.
+		</release>
+		<release version="0.2" date="2012-11-16" min="2.3" max="2.3" >
+			- Исправлены ошибки перевода и недочёты.
+			- Изменено название и ID плагина перевода, для корректной работы плагина обновления расширений. Теперь при выпуске нвых версий перевода, вы можете обновлять перевода автоматически.
+		</release>
+		<release version="0.1" date="2012-06-05" min="2.3" />
+	</releases>
+</extension>

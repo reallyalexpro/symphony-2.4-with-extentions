@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="code_editor" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Code Editor</name>
+	<description>Code Editor provides line numbers and syntax highlighting when editing code files. It can be used with or without the Workspace Manager extension.</description>
+	<repo type="github">https://github.com/Petertron/code_editor</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/96949</url>
+	<types>
+		<type>Workflow</type>
+		<type>Editor</type>
+	</types>
+	<authors>
+		<author>
+			<name github="Petertron" symphony="Petertron">Peter Skirenko</name>
+			<website>http://www.peter-s.me</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="0.1.2" date="2013-11-27" min="2.3">
+			- Fixed the slip-up in version 0.1.1 that meant that characters could not be typed.
+		</release>
+		<release version="0.1.1" date="2013-11-27" min="2.3">
+			- Adjustments to CSS and JS to reduce page layout foul-up.
+		</release>
+	</releases>
+	<releases>
+		<release version="0.1.0" date="2013-11-17" min="2.3">
+			- Initial release.
+		</release>
+	</releases>
+</extension> 
