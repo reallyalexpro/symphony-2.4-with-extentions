@@ -101,12 +101,6 @@ CREATE TABLE IF NOT EXISTS `sym_authors` (
   UNIQUE KEY `email` (`email`)
 ) ENGINE=MyISAM  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=2 ;
 
---
--- Дамп данных таблицы `sym_authors`
---
-
-INSERT INTO `sym_authors` (`id`, `username`, `password`, `first_name`, `last_name`, `email`, `last_seen`, `user_type`, `primary`, `default_area`, `auth_token_active`, `language`) VALUES
-(1, 'admin', 'PBKDF2v1|10000|c5a8b045c472bf01ec6e|PB/Yn6DEhwe66C2ZCmyuxTdzn5ZgCRQG1z1n4uQYrilrz/MdvQmQrQ==', 'a', 'a', 'a@a.com', '2014-05-29 16:49:09', 'developer', 'yes', NULL, 'no', NULL);
 
 -- --------------------------------------------------------
 
@@ -774,15 +768,6 @@ CREATE TABLE IF NOT EXISTS `sym_sessions` (
   KEY `session_expires` (`session_expires`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
---
--- Дамп данных таблицы `sym_sessions`
---
-
-INSERT INTO `sym_sessions` (`session`, `session_expires`, `session_data`) VALUES
-('f1eb318gn2uvvfaanm5jpebdj5', 1401355653, 'sym-|a:3:{s:10:"xsrf-token";a:1:{s:27:"y5LA7alYYov3PvcOW5KZw2cTin0";i:1401356553;}s:8:"username";s:5:"admin";s:4:"pass";s:92:"PBKDF2v1|10000|c5a8b045c472bf01ec6e|PB/Yn6DEhwe66C2ZCmyuxTdzn5ZgCRQG1z1n4uQYrilrz/MdvQmQrQ==";}'),
-('d6ainnuj61tlcanq89k9d1lpf4', 1401367749, 'sym-|a:3:{s:10:"xsrf-token";a:1:{s:27:"tFoRSGTZ6v7INrtnuLKjJE5lmnk";i:1401368648;}s:8:"username";s:5:"admin";s:4:"pass";s:92:"PBKDF2v1|10000|c5a8b045c472bf01ec6e|PB/Yn6DEhwe66C2ZCmyuxTdzn5ZgCRQG1z1n4uQYrilrz/MdvQmQrQ==";}');
-
--- --------------------------------------------------------
 
 --
 -- Структура таблицы `sym_url_router`
